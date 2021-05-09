@@ -12,5 +12,7 @@ public class AscendingSequenceTest {
         int[] actualResult = ascendingSequence.buildAscendingArray(endNumber);
 
         Assert.assertArrayEquals(expectedResult, actualResult);
+
+
     }
 }
